@@ -18,8 +18,9 @@ body {
     color: #333;
     line-height: 1.6;
     height: 100vh;
-    background: url('images/background.jpg') no-repeat center;
+    background: url('../images/background.jpg') no-repeat center;
     background-size: cover;
+    background-blend-mode: soft-light;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,15 +75,6 @@ img {
     border-radius: 50%;
     border-color: var(--light-color);
 }
-
-/* .profile-card .card {
-    display: grid;
-    width: 220px;
-    position: relative;
-    justify-content: space-evenly;
-    justify-self: center;
-    margin-bottom: 20px;
-} */
 
 .profile-card .bio {
     margin-bottom: 20px;
